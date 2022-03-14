@@ -1,0 +1,13 @@
+---
+- hosts: all
+  become: yes
+  tasks:
+    - name: To install apache server
+      yum:
+        name: httpd
+        state: present
+    - name: To ensure apache service is running
+      service:
+        name: httpd
+        state: started
+        enabled: yes
