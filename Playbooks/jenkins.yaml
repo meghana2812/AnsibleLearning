@@ -8,7 +8,7 @@
       state: present
   - name: install tomcat 7
     yum:
-      name: tomcat7
+      name: tomcat
       state: present
   - name: download jenkins to webapps
     get_url:
