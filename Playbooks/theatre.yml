@@ -1,0 +1,30 @@
+---
+# This is a learning example
+theatres:
+  - VEpiq:
+    showTimings: 
+      - 11:00
+      - 2:00
+      - 6:00
+    movie:
+      - RRR
+      - KGF
+    FairPrice: 300
+  - SVT:
+    showTimings: 
+      - 11:00
+      - 2:00
+      - 6:00
+    movie:
+      - RRR
+      - KGF
+    FairPrice: 200
+  - Celluloids:
+    showTimings: 
+      - 11:00
+      - 2:00
+      - 6:00
+    movie:
+      - RRR
+      - KGF
+    FairPrice: 300

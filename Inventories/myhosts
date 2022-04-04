@@ -1,5 +1,5 @@
 [appserver]
-ip-172-31-87-203.ec2.internal
+ip-172-31-29-23.ec2.internal
 
 [local]
 localhost
